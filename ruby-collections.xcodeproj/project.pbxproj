@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		497B60A6155533E600F5F9EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497B60A5155533E600F5F9EF /* Foundation.framework */; };
+		497B60A9155533E600F5F9EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 497B60A8155533E600F5F9EF /* main.m */; };
+		497B60AD155533E600F5F9EF /* ruby_collections.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 497B60AC155533E600F5F9EF /* ruby_collections.1 */; };
+		497B60BB155534AB00F5F9EF /* NSArray+RubyCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 497B60BA155534AB00F5F9EF /* NSArray+RubyCollections.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		497B609F155533E600F5F9EF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				497B60AD155533E600F5F9EF /* ruby_collections.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		497B60A1155533E600F5F9EF /* ruby-collections */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ruby-collections"; sourceTree = BUILT_PRODUCTS_DIR; };
+		497B60A5155533E600F5F9EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		497B60A8155533E600F5F9EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		497B60AB155533E600F5F9EF /* ruby-collections-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ruby-collections-Prefix.pch"; sourceTree = "<group>"; };
+		497B60AC155533E600F5F9EF /* ruby_collections.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ruby_collections.1; sourceTree = "<group>"; };
+		497B60B9155534AB00F5F9EF /* NSArray+RubyCollections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+RubyCollections.h"; sourceTree = "<group>"; };
+		497B60BA155534AB00F5F9EF /* NSArray+RubyCollections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+RubyCollections.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		497B609E155533E600F5F9EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497B60A6155533E600F5F9EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		497B6096155533E600F5F9EF = {
+			isa = PBXGroup;
+			children = (
+				497B60A7155533E600F5F9EF /* ruby-collections */,
+				497B60A4155533E600F5F9EF /* Frameworks */,
+				497B60A2155533E600F5F9EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		497B60A2155533E600F5F9EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				497B60A1155533E600F5F9EF /* ruby-collections */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		497B60A4155533E600F5F9EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				497B60A5155533E600F5F9EF /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		497B60A7155533E600F5F9EF /* ruby-collections */ = {
+			isa = PBXGroup;
+			children = (
+				497B60B9155534AB00F5F9EF /* NSArray+RubyCollections.h */,
+				497B60BA155534AB00F5F9EF /* NSArray+RubyCollections.m */,
+				497B60A8155533E600F5F9EF /* main.m */,
+				497B60AC155533E600F5F9EF /* ruby_collections.1 */,
+				497B60AA155533E600F5F9EF /* Supporting Files */,
+			);
+			path = "ruby-collections";
+			sourceTree = "<group>";
+		};
+		497B60AA155533E600F5F9EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				497B60AB155533E600F5F9EF /* ruby-collections-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		497B60A0155533E600F5F9EF /* ruby-collections */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 497B60B0155533E600F5F9EF /* Build configuration list for PBXNativeTarget "ruby-collections" */;
+			buildPhases = (
+				497B609D155533E600F5F9EF /* Sources */,
+				497B609E155533E600F5F9EF /* Frameworks */,
+				497B609F155533E600F5F9EF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ruby-collections";
+			productName = "ruby-collections";
+			productReference = 497B60A1155533E600F5F9EF /* ruby-collections */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		497B6098155533E600F5F9EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 497B609B155533E600F5F9EF /* Build configuration list for PBXProject "ruby-collections" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 497B6096155533E600F5F9EF;
+			productRefGroup = 497B60A2155533E600F5F9EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				497B60A0155533E600F5F9EF /* ruby-collections */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		497B609D155533E600F5F9EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497B60A9155533E600F5F9EF /* main.m in Sources */,
+				497B60BB155534AB00F5F9EF /* NSArray+RubyCollections.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		497B60AE155533E600F5F9EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		497B60AF155533E600F5F9EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		497B60B1155533E600F5F9EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ruby-collections/ruby-collections-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		497B60B2155533E600F5F9EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ruby-collections/ruby-collections-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		497B609B155533E600F5F9EF /* Build configuration list for PBXProject "ruby-collections" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497B60AE155533E600F5F9EF /* Debug */,
+				497B60AF155533E600F5F9EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		497B60B0155533E600F5F9EF /* Build configuration list for PBXNativeTarget "ruby-collections" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497B60B1155533E600F5F9EF /* Debug */,
+				497B60B2155533E600F5F9EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 497B6098155533E600F5F9EF /* Project object */;
+}
